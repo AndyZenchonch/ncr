@@ -1,0 +1,343 @@
+
+连接器　版本8.7.7.181224
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\STARTUP1_L.OBJ
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\NCR_KEY.OBJ
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SENSOR.OBJ
+Input Object File: G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ
+
+Input Library File: E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0001h     0008h    0008h      CODE               _gotoSleepMode (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0009h     000bh    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00h     000ch     000fh    0004h      CODE               @ptmtInterrupt_code (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0010h     004ah    003bh      CODE               @start (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     004bh     0069h    001fh      CODE               @ROMDATA_BASE (G:\workspace\client\利仁电气\software\NCR\ncr\STARTUP1_L.OBJ)
+     00h     006ah     0078h    000fh      CODE               _statusLEDFlush (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0079h     0096h    001eh      CODE               _holdRestButtonPush (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0097h     0269h    01d3h      CODE               _lose (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     026ah     033bh    00d2h      CODE               _gotoWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     033ch     0400h    00c5h      CODE               _gotoLowBatWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0401h     0439h    0039h      CODE               _chxPair (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     043ah     0472h    0039h      CODE               _pair15sLoop (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0473h     04dch    006ah      CODE               _clearAllChannel (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     04ddh     04feh    0022h      CODE               _reConnect (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     04ffh     05b0h    00b2h      CODE               _main (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     05b1h     05c9h    0019h      CODE               _ptmtInterrupt (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     05cah     05d2h    0009h      CODE               _ncrHalKeyConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_KEY.OBJ)
+     00h     05d3h     05d9h    0007h      CODE               _sw1DefaultConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     05dah     05e0h    0007h      CODE               _sw2DefaultConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     05e1h     05e5h    0005h      CODE               _swGpioClear (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     05e6h     05eah    0005h      CODE               _statusLowbatLedConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SENSOR.OBJ)
+     00h     05ebh     0605h    001bh      CODE               _ncrGPIOConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SENSOR.OBJ)
+     00h     0606h     0644h    003fh      CODE               _delay (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0645h     0663h    001fh      CODE               _powerOnLEDBlink (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0664h     06deh    007bh      CODE               _pair (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     06dfh     06ebh    000dh      CODE               _ptmtToneConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     06ech     06efh    0004h      CODE               _soundOff (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     06f0h     074eh    005fh      CODE               _toneMode (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     074fh     075bh    000dh      CODE               _keysPushWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     075ch     07b3h    0058h      CODE               _holdLow (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     07b4h     083bh    0088h      CODE               _hold30loop (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     083ch     0848h    000dh      CODE               _beep (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0849h     093fh    00f7h      CODE               _doBee (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0940h     095bh    001ch      CODE               _zh_memoryReadByte (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     095ch     0974h    0019h      CODE               _zh_memoryWriteByte (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0975h     0983h    000fh      CODE               _abs (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\v3_lmrsc.lib)
+     00h     0087h     0087h    0001h      DATA     131       @data_ra (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     117       @data_rb (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     0089h    0001h      DATA     64        @data_rc (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ah     008ah    0001h      DATA     26        @data_rd (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008bh     008bh    0001h      DATA     5         @data_re (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ch     008ch    0001h      DATA     2         @data_rf (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008dh     008dh    0001h      DATA     2         @data_rg (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008eh     008eh    0001h      DATA     2         @data_r10c (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_r20c (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     6         @data_ra0c (isr:ra~rh)
+     00h     00a4h     00a4h    0001h      DATA     18        @HCCINIT_chxTemp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00a5h     00a8h    0004h      DATA     15        @HCCINIT_systemTicksTimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00a9h     00a9h    0001h      DATA     3         @HCCINIT_waringEnable (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     00aah     00adh    0004h      DATA     2         @HCCINIT_ch6TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00aeh     00b1h    0004h      DATA     2         @HCCINIT_ch5TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00b2h     00b5h    0004h      DATA     2         @HCCINIT_ch4TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00b6h     00b9h    0004h      DATA     2         @HCCINIT_ch3TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00bah     00bdh    0004h      DATA     2         @HCCINIT_ch2TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00beh     00c1h    0004h      DATA     2         @HCCINIT_ch1TimeStamp (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00c2h     00dbh    001ah      DATA     0         @HCCINIT_toneDelay (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00a4h     00a4h    0000h      LOCAL    0         @dummy (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00a4h     00a4h    0000h      LOCAL    0         _main (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _statusLowbatLedConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SENSOR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ncrGPIOConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SENSOR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _swGpioClear (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ncrHalKeyConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_KEY.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ptmtToneConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    2         _zh_memoryReadByte (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     009bh    0000h      LOCAL    0         _statusLEDFlush (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0091h     009ah    000ah      LOCAL    20.2      _delay (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     009bh    0000h      LOCAL    0         _keysPushWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0091h    0001h      LOCAL    8         _toneMode (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _soundOff (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     009dh    0003h      LOCAL    4.6667    _beep (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     00a4h     00a4h    0000h      LOCAL    0         _pair15sLoop (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     00a1h     00a3h    0003h      LOCAL    4.3333    _chxPair (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     009bh     009bh    0000h      LOCAL    0         _holdRestButtonPush (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     009bh     00a0h    0006h      LOCAL    4.6667    _pair (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0092h    0002h      LOCAL    3         _abs (E:\Program Files\Holtek MCU Development Tools\HT-IDE3000V7.x\LIB\v3_lmrsc.lib)
+     00h     0091h     0092h    0002h      LOCAL    4.5       _zh_memoryWriteByte (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     009fh    0005h      LOCAL    4.6       _clearAllChannel (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _sw1DefaultConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _sw2DefaultConfig (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SW.OBJ)
+     00h     009bh     009fh    0005h      LOCAL    5.2       _gotoWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0092h     0094h    0003h      LOCAL    8.3333    _doBee (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0093h     009ah    0008h      LOCAL    6         _lose (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     009bh     009dh    0003h      LOCAL    6         _hold30loop (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     009dh    0003h      LOCAL    3.3333    _holdLow (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     009bh     00a0h    0006h      LOCAL    6.8333    _gotoLowBatWaring (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0093h     0093h    0000h      LOCAL    0         _reConnect (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     009bh     009bh    0000h      LOCAL    0         _powerOnLEDBlink (G:\workspace\client\利仁电气\software\NCR\ncr\NCR_SYSTEM.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _gotoSleepMode (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         @dummy12 (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         _ptmtInterrupt (G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     000ah              _Crom2Prom
+     0009h              _Crom2PromNext
+     0975h              _abs
+     083ch              _beep
+     00beh              _ch1TimeStamp
+     00bah              _ch2TimeStamp
+     00b6h              _ch3TimeStamp
+     00b2h              _ch4TimeStamp
+     00aeh              _ch5TimeStamp
+     00aah              _ch6TimeStamp
+     0401h              _chxPair
+     00a1h              _chxPair_2
+     00a4h              _chxTemp
+     0473h              _clearAllChannel
+     0606h              _delay
+     0091h              _delay_2
+     0849h              _doBee
+     033ch              _gotoLowBatWaring
+     0001h              _gotoSleepMode
+     026ah              _gotoWaring
+     07b4h              _hold30loop
+     075ch              _holdLow
+     0079h              _holdRestButtonPush
+     074fh              _keysPushWaring
+     0097h              _lose
+     04ffh              _main
+     05ebh              _ncrGPIOConfig
+     05cah              _ncrHalKeyConfig
+     0664h              _pair
+     043ah              _pair15sLoop
+     0645h              _powerOnLEDBlink
+     05b1h              _ptmtInterrupt
+     06dfh              _ptmtToneConfig
+     04ddh              _reConnect
+     06ech              _soundOff
+     006ah              _statusLEDFlush
+     05e6h              _statusLowbatLedConfig
+     05d3h              _sw1DefaultConfig
+     05dah              _sw2DefaultConfig
+     05e1h              _swGpioClear
+     00a5h              _systemTicksTimeStamp
+     00c2h              _toneDelay
+     06f0h              _toneMode
+     00a9h              _waringEnable
+     0940h              _zh_memoryReadByte
+     095ch              _zh_memoryWriteByte
+     008eh              r10c
+     008fh              r20c
+     0087h              ra
+     0090h              ra0c
+     0088h              rb
+     0089h              rc
+     008ah              rd
+     008bh              re
+     008ch              rf
+     008dh              rg
+     004ah              startup_value_1
+
+     Address            Public by Value
+     0001h              _gotoSleepMode
+     0009h              _Crom2PromNext
+     000ah              _Crom2Prom
+     004ah              startup_value_1
+     006ah              _statusLEDFlush
+     0079h              _holdRestButtonPush
+     0087h              ra
+     0088h              rb
+     0089h              rc
+     008ah              rd
+     008bh              re
+     008ch              rf
+     008dh              rg
+     008eh              r10c
+     008fh              r20c
+     0090h              ra0c
+     0091h              _delay_2
+     0097h              _lose
+     00a1h              _chxPair_2
+     00a4h              _chxTemp
+     00a5h              _systemTicksTimeStamp
+     00a9h              _waringEnable
+     00aah              _ch6TimeStamp
+     00aeh              _ch5TimeStamp
+     00b2h              _ch4TimeStamp
+     00b6h              _ch3TimeStamp
+     00bah              _ch2TimeStamp
+     00beh              _ch1TimeStamp
+     00c2h              _toneDelay
+     026ah              _gotoWaring
+     033ch              _gotoLowBatWaring
+     0401h              _chxPair
+     043ah              _pair15sLoop
+     0473h              _clearAllChannel
+     04ddh              _reConnect
+     04ffh              _main
+     05b1h              _ptmtInterrupt
+     05cah              _ncrHalKeyConfig
+     05d3h              _sw1DefaultConfig
+     05dah              _sw2DefaultConfig
+     05e1h              _swGpioClear
+     05e6h              _statusLowbatLedConfig
+     05ebh              _ncrGPIOConfig
+     0606h              _delay
+     0645h              _powerOnLEDBlink
+     0664h              _pair
+     06dfh              _ptmtToneConfig
+     06ech              _soundOff
+     06f0h              _toneMode
+     074fh              _keysPushWaring
+     075ch              _holdLow
+     07b4h              _hold30loop
+     083ch              _beep
+     0849h              _doBee
+     0940h              _zh_memoryReadByte
+     095ch              _zh_memoryWriteByte
+     0975h              _abs
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0c00h     0984h    79%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     005ch    71%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     Total     0200h     005ch    17%
+
+Use Stack Count
+_main: 5
+_ptmtInterrupt: 0
+_checkPowerOnLEDBlink: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            _statusLowbatLedConfig (1)
+            _ncrGPIOConfig (1)
+                _swGpioClear (2)
+            _ncrHalKeyConfig (1)
+            _ptmtToneConfig (1)
+            _zh_memoryReadByte (1)
+            _statusLEDFlush (1)
+                _delay (2)
+            _keysPushWaring (1)
+                _toneMode (2)
+                    _soundOff (3)
+                _delay (2)
+            _beep (1)
+                _toneMode (2)
+                    _soundOff (3)
+                _delay (2)
+            _delay (1)
+            _pair15sLoop (1)
+                _delay (2)
+                _chxPair (2)
+                    _holdRestButtonPush (3)
+                        _delay (4)
+                    _pair (3)
+                        _abs (4)
+                        _delay (4)
+                    _beep (3)
+                        _toneMode (4)
+                            _soundOff (5)
+                        _delay (4)
+                    _delay (3)
+                    _zh_memoryWriteByte (3)
+            _clearAllChannel (1)
+                _delay (2)
+                _abs (2)
+                _toneMode (2)
+                    _soundOff (3)
+            _zh_memoryWriteByte (1)
+            _sw1DefaultConfig (1)
+            _sw2DefaultConfig (1)
+            _gotoWaring (1)
+                _doBee (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _toneMode (3)
+                        _soundOff (4)
+                _keysPushWaring (2)
+                    _toneMode (3)
+                        _soundOff (4)
+                    _delay (3)
+                _delay (2)
+                _lose (2)
+                    _zh_memoryWriteByte (3)
+                _toneMode (2)
+                    _soundOff (3)
+            _swGpioClear (1)
+            _hold30loop (1)
+                _toneMode (2)
+                    _soundOff (3)
+                _delay (2)
+                _keysPushWaring (2)
+                    _toneMode (3)
+                        _soundOff (4)
+                    _delay (3)
+            _holdLow (1)
+                _keysPushWaring (2)
+                    _toneMode (3)
+                        _soundOff (4)
+                    _delay (3)
+                _delay (2)
+            _gotoLowBatWaring (1)
+                _doBee (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _toneMode (3)
+                        _soundOff (4)
+                _delay (2)
+                _toneMode (2)
+                    _soundOff (3)
+            _reConnect (1)
+                _zh_memoryWriteByte (2)
+            _powerOnLEDBlink (1)
+                _delay (2)
+            _gotoSleepMode (1)
+                _swGpioClear (2)
+    @dummy12
+        _ptmtInterrupt (0)
+    _checkPowerOnLEDBlink
+        _delay (0)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'G:\workspace\client\利仁电气\software\NCR\ncr\NCR.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0
